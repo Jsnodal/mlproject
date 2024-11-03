@@ -12,7 +12,7 @@ def get_requirements(filepath: str) -> List[str]:
 
         if HYPHE_E_DOT in requirements:
             requirements.remove(HYPHE_E_DOT)
-
+            
     return requirements
 setup(
     name="mlproject",
